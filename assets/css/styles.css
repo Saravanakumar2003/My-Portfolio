@@ -425,7 +425,11 @@ img {
   font-size: var(--smaller-font-size);
 }
 
-.education__year, .education__university{
+.education__university{
+  text-align: left;
+}
+
+.education__year{
   text-align: right;
 }
 
