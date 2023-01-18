@@ -279,7 +279,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  padding-bottom: -6rem;
 }
 
 .home__social,
@@ -345,7 +344,7 @@ img {
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .4s;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .button:hover{
@@ -404,6 +403,10 @@ img {
 
 .about__description{
   margin-bottom: 2rem;
+}
+
+.about__button{
+  margin-bottom: 2.5rem;
 }
 
 
