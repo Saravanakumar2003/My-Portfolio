@@ -2,7 +2,7 @@
 const scrollHeader = () =>{
     const header = document.getElementById('header')
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
-    this.scrollY >= 100 ? header.classList.add('scroll-header') 
+    this.scrollY >= 150 ? header.classList.add('scroll-header') 
                        : header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
@@ -115,7 +115,7 @@ function validate(){
     let name = document.querySelector('.name')
     let email = document.querySelector('.email')
     let message = document.querySelector('.messagae')
-    let sebdbtn = document.querySelector('.sendbtn')
+    let sendbtn = document.querySelector('.sendbtn')
 
 sendbtn.addEventListener('click', (e) => {
     e.prventDefault();
@@ -134,7 +134,7 @@ function sendmail(name,email,message){
     emailjs.send("service_zt1x6ag","template_dhg3xsf",{
         from_name: email,
         to_name: name,
-        message: msg,
+        message: message,
     });
 }
 
