@@ -344,6 +344,7 @@ img {
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .4s;
+  margin-bottom: 5rem;
 }
 
 .button:hover{
@@ -420,16 +421,19 @@ img {
   margin-bottom: .25rem;
 }
 
-.education__university, .education__speciality{
-  display: block;
-  font-size: var(--smaller-font-size);
-}
-
 .education__university{
+  font-size: var(--smaller-font-size);
+  display: block;
   text-align: left;
 }
 
-.education__year{
+.education__speciality{
+  font-size: var(--smaller-font-size);
+  display: block;
+  text-align: right;
+}
+
+.education__year {
   text-align: right;
 }
 
