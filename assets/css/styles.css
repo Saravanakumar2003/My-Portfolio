@@ -359,6 +359,28 @@ img {
   color: var(--first-color);
 }
 
+.sendbtn{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .4s;
+  margin-bottom: 2.5rem;
+}
+
+.sendbtn:hover{
+  background-color: var(--first-color-alt);
+  color: var(--body-color);
+}
+
+.sendbtn--ghost{
+  background-color: transparent;
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+}
+
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
