@@ -272,6 +272,7 @@ img {
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+  margin-bottom: 0;
 }
 
 .home__buttons{
