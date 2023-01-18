@@ -116,17 +116,17 @@ function validate(){
     let email = document.querySelector('.email')
     let message = document.querySelector('.messagae')
     let sebdbtn = document.querySelector('.sendbtn')
-}
 
 sendbtn.addEventListener('click', (e) => {
-    activeWork.prventDefault();
+    e.prventDefault();
     if (name.value=="" || email.value=="" || message=="") {
         emptyeror();
     } else{
-        sendmail(name.value, email.value, msg.value);
+        sendmail(name.value, email.value, message.value);
         success;
     }
-})
+}); 
+}
 
 validate();
 

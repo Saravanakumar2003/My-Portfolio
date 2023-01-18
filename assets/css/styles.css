@@ -826,7 +826,7 @@ img {
   height: 4rem;
 }
 
-.contact__form-input{
+.name, .email, .message{
   position: absolute;
   top: 0;
   left: 0;
