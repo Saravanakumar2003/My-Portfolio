@@ -226,7 +226,7 @@ img {
 /*=============== HOME ===============*/
 .home__container{
   position: relative;
-  row-gap: 5rem;
+  row-gap: 2rem;
   padding-top: 4rem;
 }
 
