@@ -424,17 +424,21 @@ img {
 .education__university{
   font-size: var(--smaller-font-size);
   display: block;
-  text-align: left;
+  text-align: right;
 }
 
 .education__speciality{
   font-size: var(--smaller-font-size);
   display: block;
-  text-align: right;
+  text-align: left;
 }
 
 .education__year {
   text-align: right;
+}
+
+.education__race{
+  text-align: left;
 }
 
 .education__time{
