@@ -994,6 +994,10 @@ img {
     justify-content: center;
     column-gap: 3rem;
   }
+  .education__time{
+    padding: 0 2rem;
+  }
+
 }
 
 /* For large devices */
@@ -1054,6 +1058,11 @@ img {
   .about__description{
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
+  }
+
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .skills__container{
