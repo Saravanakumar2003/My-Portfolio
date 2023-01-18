@@ -340,7 +340,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: var(--body-color);
-  padding: .75rem 1rem;
+  padding: 5rem 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .4s;
@@ -382,7 +382,7 @@ img {
 .about__box{
   background-color: var(--container-color);
   border-radius: .75rem;
-  padding: .75rem 5rem ;
+  padding: .75rem .5rem ;
 }
 
 .about__icon{
