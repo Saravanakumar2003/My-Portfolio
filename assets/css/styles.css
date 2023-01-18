@@ -406,7 +406,6 @@ img {
 
 
 /*=============== EDUCATION ===============*/
-
 .education__container{
   row-gap: 2rem;
 }
@@ -461,6 +460,7 @@ img {
   background-color: var(--first-color);
   transform: translate(5px, -4px);
 }
+
 /*=============== SKILLS ===============*/
 .skills__container{
   row-gap: 2rem;
