@@ -416,7 +416,7 @@ img {
   grid-template-columns: 1fr max-content 1fr;
 }
 
-.education__year, .education__race{
+.education__year{
   font-size: var(--font-medium);
   margin-bottom: .25rem;
 }
@@ -438,6 +438,8 @@ img {
 }
 
 .education__race{
+  font-size: var(--font-medium);
+  margin-bottom: .25rem;
   text-align: left;
 }
 
