@@ -108,3 +108,41 @@ const sr=ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {delay:700})
 sr.reveal(`.home__social, .home__scroll`, {delay:900, origin: 'bottom'})
+
+
+/*=============== EMAIL JS ===============*/
+function validate(){
+    let name = document.querySelector('.name')
+    let email = document.querySelector('.email')
+    let message = document.querySelector('.messagae')
+    let sebdbtn = document.querySelector('.sendbtn')
+}
+
+sendbtn.addEventListener('click', (e) => {
+    activeWork.prventDefault();
+    if (name.value=="" || email.value=="" || message=="") {
+        emptyeror();
+    } else{
+        sendmail(name.value, email.value, msg.value);
+        success;
+    }
+})
+
+validate();
+
+function sendmail(name,email,message){
+    emailjs.send("service_zt1x6ag","template_dhg3xsf",{
+        from_name: email,
+        to_name: name,
+        message: msg,
+    });
+}
+
+function success() {
+    swal({
+        title: "Message Sent!",
+        text: " You'll get a reply soon!!",
+        icon: "success",
+        button: "Back to Page!",
+      });
+}

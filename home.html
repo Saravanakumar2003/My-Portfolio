@@ -631,20 +631,20 @@
                          <form action="" class="contact__form">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Name</label>
-                                <input required type="text" placeholder="Type your sweet name" class="contact__form-input">
+                                <input required type="text" placeholder="Type your sweet name" class="name">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Email</label>
-                                <input required type="text"  placeholder="Enter valid email ID" class="contact__form-input">
+                                <input required type="text"  placeholder="Enter valid email ID" class="email">
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Your Thought</label>
-                                <textarea required name="" id="" cols="30" rows="10" placeholder="Type Anything(Project, Ideas, Sugesstion)" class="contact__form-input"></textarea>
+                                <textarea required name="" id="" cols="30" rows="10" placeholder="Type Anything(Project, Ideas, Sugesstion)" class="message"></textarea>
                             </div>
 
-                            <button class="button">Send Message</button>
+                            <button type="submit" value="send" class="sendbtn">Send Message</button>
                          </form>
                     </div>
                 </div>
@@ -699,5 +699,14 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
+         <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("bnWODs5z3g6pDTnwS");
+            })();
+        </script>
     </body>
 </html>
