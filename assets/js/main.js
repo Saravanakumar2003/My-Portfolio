@@ -177,7 +177,7 @@ function success() {
 /*=============== TYPING ANIMATION ===============*/
 
 var typed = new Typed(".home__education",{
-    strings:["Volunteer","Speaker","Video Editor", "Web Developer", "Researcher"],
+    strings:["Developer", "Volunteer", "Speaker", "Video Editor", "Web Developer", "Researcher"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
