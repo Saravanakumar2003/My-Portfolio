@@ -72,14 +72,33 @@
                         <h1 class="home__name">Saravanakumar R</h1>
                         <h3 class="home__education">Developer</h3>
 
-                        <div class="home__buttons">
-                            <a download="" href="assets/pdf/Saravana CV.pdf" class="button button--ghost">
-                                Download CV
-                            </a>
-                            <a href="#about" class="button">About me</a>
+                         <div class="home__buttons">
+                        <a download="" href="assets/pdf/Saravana CV" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <div class="modal">
+                            <a href="#" class="btn">Watch Video</a>
+                    
+                            <div class="video-container">
+                                <span class="close">&#10006;</span>
+                                <video src="assets/video/video_2023-01-19_12-46-49.mp4" controls></video>
+                            </div>
                         </div>
-                    </div>
+                        <script>
+                            const btn = document.querySelector('.btn');
+                            const videoContainer = document.querySelector('.video-container');
+                            const close = document.querySelector('.close');
 
+                            btn.addEventListener('click', () => {
+                                videoContainer.classList.add('show');
+                            })
+
+                            close.addEventListener('click', () => {
+                                videoContainer.classList.remove('show');
+                            })
+                        </script>
+                    </div>
+                </div>
                     <div class="home__handle">
                         <img src="assets/img/Hi.png" alt="" class="home__img">
                     </div>
