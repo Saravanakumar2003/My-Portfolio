@@ -453,7 +453,7 @@ body.light-theme{
 
 
 /*=============== BUTTONS ===============*/
-.button{
+.button, .btn{
   display: inline-block;
   background-color: var(--first-color);
   color: var(--body-color);
@@ -464,7 +464,7 @@ body.light-theme{
   margin-bottom: 2.5rem;
 }
 
-.button:hover{
+.button:hover, btn:hover{
   background-color: var(--first-color-alt);
   color: var(--body-color);
 }
@@ -497,20 +497,6 @@ body.light-theme{
   color: var(--first-color);
 }
 
-.btn{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: var(--body-color);
-  padding: .75rem 1rem;
-  border-radius: .5rem;
-  font-weight: var(--font-medium);
-  transition: .4s;
-}
-
-.btn:hover{
-  background-color: var(--first-color-alt);
-  color: var(--body-color);
-}
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
