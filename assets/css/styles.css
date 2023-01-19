@@ -312,17 +312,14 @@ body.light-theme{
 .typing{
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
+  color: var(--text-color);
+  margin-bottom: 3rem;
 }
 
 .home__greeting{
   display: block;
   color: var(--title-color);
   margin-bottom: 0.25rem;
-}
-
-.home__education{
-  color: var(--text-color);
-  margin-bottom: 3rem;
 }
 
 .home__name{
