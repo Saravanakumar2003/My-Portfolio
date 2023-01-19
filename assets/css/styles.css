@@ -437,6 +437,9 @@ body.light-theme{
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
+  font-size: var(--small-font-size);
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .typing-slider p {
   position: relative;
@@ -453,7 +456,6 @@ body.light-theme{
   right: 0;
   bottom: 0;
   border-left: 3px solid black;
-  background-color: #fc0;
   animation: typing 4s infinite, cursor 1s infinite;
 }
 .typing-slider p:nth-child(1) {
