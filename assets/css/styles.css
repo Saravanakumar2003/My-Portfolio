@@ -841,15 +841,6 @@ img {
   z-index: 1;
 }
 
-.contact__form input, .contact__form textarea{
-  border: none;
-  outline: none;
-  font-size: 0.9rem;
-  padding: 15px;
-  color: var(--first-color);
-  background: var(--body-color);
-}
-
 .contact__form-tag{
   position: absolute;
   top: -.75rem;
