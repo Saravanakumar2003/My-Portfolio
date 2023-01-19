@@ -173,3 +173,12 @@ function success() {
         button: "Back to Page!",
       });
 }
+
+/*=============== TYPING ANIMATION ===============*/
+
+var typed = new Typed(".home__education",{
+    string:["Volunteer","Speaker","Video Editor", "Web Developer", "Researcher"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+})
