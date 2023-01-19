@@ -304,8 +304,12 @@ body.light-theme{
   text-align: center;
 }
 
-.home__greeting,
-.home__education{
+.home__greeting{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.typing{
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
 }
@@ -1113,11 +1117,6 @@ body.light-theme{
 
 /* For large devices */
 @media screen and (min-width:992px) {
-
-  .nav__menu{
-    width: 800px;
-  }
-  
   .container{
     margin-left: auto;
     margin-right: auto;
