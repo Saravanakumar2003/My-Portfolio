@@ -501,6 +501,7 @@ body.light-theme{
   display: inline-block;
   background-color: var(--first-color);
   color: var(--body-color);
+  padding: .75rem 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .4s;
@@ -510,13 +511,6 @@ body.light-theme{
   background-color: var(--first-color-alt);
   color: var(--body-color);
 }
-
-.btn--ghost{
-  background-color: transparent;
-  border: 2px solid var(--first-color);
-  color: var(--first-color);
-}
-
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
