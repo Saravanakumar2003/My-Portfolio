@@ -409,15 +409,6 @@ body.light-theme{
 
 /*=============== Video ===============*/
 
-.btn{
-  text-decoration: none;
-  padding: 15px 40px;
-  color: #fff;
-  border-radius: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bolder;
-}
-
 .video-container{
   position: fixed;
   top: 0;
