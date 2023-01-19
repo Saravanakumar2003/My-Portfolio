@@ -114,12 +114,12 @@ sr.reveal(`.home__social, .home__scroll`, {delay:900, origin: 'bottom'})
 function validate(){
     let name = document.querySelector(".name")
     let email = document.querySelector(".email")
-    let message = document.querySelector(".messagae")
+    let message = document.querySelector(".message")
     let sendbtn = document.querySelector(".sendbtn")
 
-sendbtn.addEventListener('click', (e) => {
-    e.prventDefault();
-    if (name.value=="" || email.value=="" || message.value=="") {
+sendbtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (name.value =="" || email.value=="" || message.value=="") {
         emptyeror();
     } else{
         sendmail(name.value, email.value, message.value);
