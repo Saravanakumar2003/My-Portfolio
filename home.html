@@ -627,25 +627,26 @@
                     </div>
                     <div class="contact__content">
                         <h3 class="contact__title">Share your thought!!</h3>
-
-                         <form action="" class="contact__form" onsubmit="sendEmail(); reset(); return false;">
+                    
+                        <form action="" class="contact__form" id="contact__form">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Name</label>
                                 <input required type="text" placeholder="Type your sweet name" class="name">
                             </div>
-
+                    
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Email</label>
-                                <input required type="email"  placeholder="Enter valid email ID" class="email">
+                                <input required type="email" placeholder="Enter valid email ID" class="email">
                             </div>
-
-                            <div class="contact__form-div contact__form-area">
+                    
+                            <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Your Thought</label>
-                                <textarea required name="" id="" cols="30" rows="10" placeholder="Type Anything(Project, Ideas, Sugesstion)" class="message"></textarea>
+                                <textarea required name="" id="" cols="30" rows="10" placeholder="Type Anything(Project, Ideas, Sugesstion)"
+                                    class="message"></textarea>
                             </div>
-
+                    
                             <input type="submit" value="Send Message" class="sendbtn">
-                         </form>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -708,23 +709,6 @@
                 emailjs.init("bnWODs5z3g6pDTnwS");
             })();
         </script>
-
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-                Email.send({
-                    secureToken: " f05b943d-b4fe-40a1-acf1-c2f68f3437ba",
-                    Host:"smtp.gmail.com",
-                    Username: "saravanaramaswamy2003@gmail.com",
-                    Password: "CB844828093AF5DC546BCCA8297D5171EAD9",
-                    To: 'saravanaramaswamy2003@gmail.com',
-                    From : document.getElementById("email").value,
-                    Subject: "Message From Portfolio Website",
-                    Body : "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email").value + "<br> Message: " +document.getElementById("message").value
-                }).then(
-                    message=>alert("Sent Succesfully")
-                );
-            }
         </script>
     </body>
 </html>
