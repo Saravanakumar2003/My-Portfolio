@@ -406,6 +406,85 @@ body.light-theme{
   font-size: var(--smaller-font-size);
   transform: rotate(-90deg);
 }
+@keyframes cursor {
+  from, to {
+    border-color: transparent;
+ }
+  50% {
+    border-color: black;
+ }
+}
+@keyframes typing {
+  from {
+    width: 100%;
+ }
+  90%, to {
+    width: 0;
+ }
+}
+@keyframes slide {
+  25% {
+    font-size: 2rem;
+    letter-spacing: 3px;
+ }
+  to {
+    font-size: 0;
+    letter-spacing: 0;
+ }
+}
+.typing-slider {
+  font-family: Consolas, monospace;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+.typing-slider p {
+  position: relative;
+  display: inline;
+  font-size: 0;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  animation: slide 16s step-start infinite;
+}
+.typing-slider p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-left: 3px solid black;
+  background-color: #fc0;
+  animation: typing 4s infinite, cursor 1s infinite;
+}
+.typing-slider p:nth-child(1) {
+  animation-delay: 0s;
+}
+.typing-slider p:nth-child(1)::after {
+  animation-delay: 0s;
+  animation-timing-function: steps(9), step-end;
+}
+.typing-slider p:nth-child(2) {
+  animation-delay: 4s;
+}
+.typing-slider p:nth-child(2)::after {
+  animation-delay: 4s;
+  animation-timing-function: steps(6), step-end;
+}
+.typing-slider p:nth-child(3) {
+  animation-delay: 8s;
+}
+.typing-slider p:nth-child(3)::after {
+  animation-delay: 8s;
+  animation-timing-function: steps(7), step-end;
+}
+.typing-slider p:nth-child(4) {
+  animation-delay: 12s;
+}
+.typing-slider p:nth-child(4)::after {
+  animation-delay: 12s;
+  animation-timing-function: steps(10), step-end;
+}
+
 
 /*=============== BUTTONS ===============*/
 .button, .btn{
