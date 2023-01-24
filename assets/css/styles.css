@@ -762,7 +762,7 @@ body.light-theme{
 /*=============== WORK ===============*/
 .work__container{
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .work__filters{
@@ -770,7 +770,6 @@ body.light-theme{
   justify-content: center;
   align-items: center;
   column-gap: .75rem;
-  margin-bottom: 2rem;
 }
 
 .work__item{
@@ -827,11 +826,7 @@ body.light-theme{
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
-<<<<<<< HEAD
-=======
   margin-bottom: 3rem;
-  margin-top: 1rem;
->>>>>>> e67726adfbf4d24d6351c8924bd58a27cf5ee8ce
 } 
 
 .award__img{
