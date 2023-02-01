@@ -842,6 +842,7 @@ body.light-theme{
 
 .award__description{
   font-size: var(--small-font-size);
+  margin-top: 3rem;
 }
 
 
