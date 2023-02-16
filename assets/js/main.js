@@ -158,7 +158,7 @@ sendbtn.addEventListener("click", (e) => {
 validate();
 
 function sendmail(name,email,message){
-    emailjs.send("service_oyqu8ji","template_hbxr4lm",{
+    emailjs.send("service_bqkcqul","template_hbxr4lm",{
         from_name: email,
         to_name: name,
         message: message,

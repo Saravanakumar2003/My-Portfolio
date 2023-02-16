@@ -533,7 +533,7 @@ body.light-theme{
 .journey__tabs{
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2);
+  margin-bottom: 2rem;
 }
 
 .journey__button{
@@ -548,7 +548,7 @@ body.light-theme{
 
 .journey__icon{
   font-size: 1.8rem;
-  margin-right: var(--mb-0-25);
+  margin-right: .25rem;
 }
 
 .journey__data{
@@ -565,7 +565,7 @@ body.light-theme{
 .journey__subtitle{
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 1rem;
 }
 
 .journey__calender{
