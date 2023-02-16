@@ -196,7 +196,7 @@ tabs.forEach(tab=>{
         })
         target.classList.add('journey__active')
 
-        tab.forEach(tab => {
+        tabs.forEach(tab => {
             tab.classList.remove('journey__active')
         })
         tab.classList.add('journey__active')
