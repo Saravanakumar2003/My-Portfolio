@@ -593,8 +593,12 @@ body.light-theme{
   display: none;
 }
 
-.journey__active [data-content]{
+.journey__active[data-content]{
   display: block;
+}
+
+.journey__button.journey__active{
+  color: var(--first-color);
 }
 
 /*=============== SKILLS ===============*/
