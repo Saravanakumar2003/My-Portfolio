@@ -158,7 +158,7 @@ sendbtn.addEventListener("click", (e) => {
 validate();
 
 function sendmail(name,email,message){
-    emailjs.send("service_zt1x6ag","template_dhg3xsf",{
+    emailjs.send("service_oyqu8ji","template_hbxr4lm",{
         from_name: email,
         to_name: name,
         message: message,
@@ -181,4 +181,24 @@ var typed = new Typed(".typing",{
     typeSpeed:100,
     BackSpeed:60,
     loop:true
+})
+
+/*=============== JOURNEY TAB ===============*/
+const tabs = document.querySelectorAll('[data-target'),
+      tabContents = document.querySelectorAll('[data-content')
+
+tabs.forEach(tab=>{
+    tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.target)
+
+        tabContents.forEach(tabContent =>{
+            tabContent.classList.remove('journey__active')
+        })
+        target.classList.add('journey__active')
+
+        tab.forEach(tab => {
+            tab.classList.remove('journey__active')
+        })
+        tab.classList.add('journey__active')
+    })
 })
