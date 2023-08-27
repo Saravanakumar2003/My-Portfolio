@@ -174,15 +174,6 @@ function success() {
       });
 }
 
-/*=============== TYPING ANIMATION ===============*/
-
-var typed = new Typed(".typing",{
-    strings:["", "Volunteer", "Speaker", "Video Editor", "Web Developer", "Researcher"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true
-})
-
 /*=============== JOURNEY TAB ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
